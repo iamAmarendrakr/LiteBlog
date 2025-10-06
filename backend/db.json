@@ -1,0 +1,150 @@
+{
+  "users": [
+    {
+      "id": "060b",
+      "userName": "Avinash Kumar",
+      "email": "avinashkumar@gmail.con",
+      "password": "1234"
+    },
+    {
+      "id": "0ee4",
+      "userName": "Sintu kumar",
+      "email": "sintukumar@gmail.com",
+      "password": "1122"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Intro to MongoDB Aggregations",
+      "description": "aggregation in mongodb allows advanced querying grouping and transforming of data with pipelines",
+      "category": "MongoDB",
+      "createdBy": {
+        "_id": "64a1f3b4c9d8f20011a1a113",
+        "userName": "Rahul Verma"
+      },
+      "createdAt": "2025-08-03T11:45:00Z",
+      "updatedAt": "2025-08-03T11:45:00Z",
+      "id": "9961"
+    },
+    {
+      "title": "JWT Authentication Simplified",
+      "description": "json web tokens jwt are used to securely transmit information between parties and implement authentication",
+      "category": "Authentication",
+      "createdBy": {
+        "_id": "64a1f3b4c9d8f20011a1a114",
+        "userName": "Priya Singh"
+      },
+      "createdAt": "2025-08-04T13:10:00Z",
+      "updatedAt": "2025-08-04T13:10:00Z",
+      "id": "d214"
+    },
+    {
+      "title": "REST API Best Practices",
+      "description": "rest api should be clean consistent and follow standards for better scalability and maintainability",
+      "category": "API",
+      "createdBy": {
+        "_id": "64a1f3b4c9d8f20011a1a115",
+        "userName": "Sandeep Yadav"
+      },
+      "createdAt": "2025-08-05T15:25:00Z",
+      "updatedAt": "2025-08-05T15:25:00Z",
+      "id": "6263"
+    },
+    {
+      "title": "Async Await vs Promises",
+      "description": "async and await provide syntactic sugar over promises making asynchronous code easier to write and read",
+      "category": "JavaScript",
+      "createdBy": {
+        "_id": "64a1f3b4c9d8f20011a1a117",
+        "userName": "Vikas Kumar"
+      },
+      "createdAt": "2025-08-07T10:30:00Z",
+      "updatedAt": "2025-08-07T10:30:00Z",
+      "id": "eb15"
+    },
+    {
+      "title": "Role Based Access Control",
+      "description": "rbac allows assigning roles and permissions to users in a secure and manageable way in applications",
+      "category": "Security",
+      "createdBy": {
+        "_id": "64a1f3b4c9d8f20011a1a119",
+        "userName": "Manish Tiwari"
+      },
+      "createdAt": "2025-08-09T12:50:00Z",
+      "updatedAt": "2025-08-09T12:50:00Z",
+      "id": "4d8d"
+    },
+    {
+      "title": "Optimizing Express Performance",
+      "description": "express apps can be optimized by using compression caching clustering and monitoring",
+      "category": "Express.js",
+      "createdBy": {
+        "_id": "64a1f3b4c9d8f20011a1a120",
+        "userName": "Rohit Jain"
+      },
+      "createdAt": "2025-08-10T14:05:00Z",
+      "updatedAt": "2025-08-10T14:05:00Z",
+      "id": "73d8"
+    },
+    {
+      "title": "Introduction to MERN Stack",
+      "description": "mern stack combines mongodb express react and nodejs to build full stack applications",
+      "category": "MERN",
+      "createdBy": {
+        "_id": "64a1f3b4c9d8f20011a1a121",
+        "userName": "Divya Kapoor"
+      },
+      "createdAt": "2025-08-11T16:15:00Z",
+      "updatedAt": "2025-08-11T16:15:00Z",
+      "id": "31cf"
+    },
+    {
+      "title": "Caching Strategies for APIs",
+      "description": "caching improves performance by storing responses at client server or proxy level reducing load",
+      "category": "API",
+      "createdBy": {
+        "_id": "64a1f3b4c9d8f20011a1a122",
+        "userName": "Arjun Nair"
+      },
+      "createdAt": "2025-08-12T09:35:00Z",
+      "updatedAt": "2025-08-12T09:35:00Z",
+      "id": "0507"
+    },
+    {
+      "title": "Working with MongoDB Indexes",
+      "description": "indexes in mongodb speed up queries but come with trade offs of extra storage and slower writes",
+      "category": "MongoDB112",
+      "createdBy": {
+        "_id": "64a1f3b4c9d8f20011a1a123",
+        "userName": "Kavita Joshi"
+      },
+      "createdAt": "2025-08-13T11:00:00Z",
+      "updatedAt": "2025-08-13T11:00:00Z",
+      "id": "c50b"
+    },
+    {
+      "title": "Understanding Bcrypt for Passwords",
+      "description": "bcrypt is used to securely hash and compare passwords providing strong protection against attacks",
+      "category": "Security",
+      "createdBy": {
+        "_id": "64a1f3b4c9d8f20011a1a124",
+        "userName": "Gaurav Mishra"
+      },
+      "createdAt": "2025-08-14T13:25:00Z",
+      "updatedAt": "2025-08-14T13:25:00Z",
+      "id": "c6e1"
+    },
+    {
+      "title": "Introduction to WebSockets",
+      "description": "websockets allow two way communication between client and server for realtime applications",
+      "category": "Web",
+      "createdBy": {
+        "_id": "64a1f3b4c9d8f20011a1a125",
+        "userName": "Simran Kaur"
+      },
+      "createdAt": "2025-08-15T15:40:00Z",
+      "updatedAt": "2025-08-15T15:40:00Z",
+      "id": "98e6"
+    }
+  ]
+}
