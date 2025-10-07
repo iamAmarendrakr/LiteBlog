@@ -3,6 +3,7 @@ import EditModal from "./EditModal";
 import { AxiosInstance } from "../routes/AxiosInstance";
 
 import toast from "react-hot-toast";
+import ViewDetail from "./ViewDetail";
 
 // Destructure blog prop to get individual blog details
 // This makes it easier to access blog properties directly
@@ -56,6 +57,7 @@ const BlogCard = (props) => {
         </button>
         <button>
           <a
+            onClick={() => ViewDetail(id)}
             href={`/view/${id}`}
             className="px-4 py-2 text-sm font-semibold border border-blue-500 text-blue-500 rounded-full hover:bg-blue-500 hover:text-white transition-all">
             View
