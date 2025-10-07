@@ -11,6 +11,12 @@
       "userName": "Sintu kumar",
       "email": "sintukumar@gmail.com",
       "password": "1122"
+    },
+    {
+      "id": "0b63",
+      "userName": "Mukesh Kumar",
+      "email": "mukeshkumar@gmail.com",
+      "password": "12345"
     }
   ],
   "blogs": [
@@ -25,18 +31,6 @@
       "createdAt": "2025-08-03T11:45:00Z",
       "updatedAt": "2025-08-03T11:45:00Z",
       "id": "9961"
-    },
-    {
-      "title": "JWT Authentication Simplified",
-      "description": "json web tokens jwt are used to securely transmit information between parties and implement authentication",
-      "category": "Authentication",
-      "createdBy": {
-        "_id": "64a1f3b4c9d8f20011a1a114",
-        "userName": "Priya Singh"
-      },
-      "createdAt": "2025-08-04T13:10:00Z",
-      "updatedAt": "2025-08-04T13:10:00Z",
-      "id": "d214"
     },
     {
       "title": "REST API Best Practices",

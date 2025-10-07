@@ -51,9 +51,9 @@ const SignupPage = () => {
   };
 
   return (
-    <div className="h-full w-full bg-gradient-to-tr from-rose-100 to-purple-600 bg-cover flex justify-center items-center bg-transparent">
-      <form className="flex flex-col gap-2 border-2 px-3 rounded-2xl  bg-transparent">
-        <h1 className="flex justify-center font-bold ">Signup</h1>
+    <div className="h-full w-full bg-gradient-to-b from-rose-200 to-purple-600 bg-cover flex justify-center items-center">
+      <form className="flex flex-col gap-2 border-2 px-3 rounded-2xl  bg-transparent shadow-2xl shadow-black">
+        <h1 className="flex justify-center items-center  font-bold ">Signup</h1>
 
         <TextField
           id="outlined-basic"
@@ -88,7 +88,7 @@ const SignupPage = () => {
         </Button>
         <p className="mt-5 text-sm font-semibold mb-2 text-center">
           Already a member?{" "}
-          <a href="/login" className="text-blue-500">
+          <a href="/login" className="text-blue-900">
             Log-in here
           </a>
         </p>

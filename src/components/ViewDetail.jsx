@@ -9,7 +9,7 @@ const ViewDetail = () => {
   const [blog, setBlog] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // Fetch blog details when component mounts
+  // Fetch blog details when component mounts 
 
   useEffect(() => {
     const fetchBlog = async () => {
