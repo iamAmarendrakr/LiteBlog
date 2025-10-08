@@ -40,7 +40,7 @@ const UserDashboard = () => {
     } else {
       getAuthUser();
     }
-  }, [id]);
+  }, [id]); 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
